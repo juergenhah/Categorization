@@ -1,0 +1,170 @@
+
+./Fish.hs,693
+module Fish Fish11,12
+data FishContextFishContext15,16
+   = UnitContext UnitContext16,17
+   | C30 C3017,18
+instance instance20,21
+data FishInstancesFishInstances24,25
+   = Trout Trout25,26
+   | Shark Shark26,27
+   | Whale Whale27,28
+   | Dolphin Dolphin28,29
+   | Pike Pike29,30
+   | Goldfish Goldfish30,31
+   | Ray Ray31,32
+   | Tuna Tuna32,33
+   | Barracuda Barracuda33,34
+   | Mackerel Mackerel34,35
+   | Herring Herring35,36
+   | Guppy Guppy36,37
+   | Plaice Plaice37,38
+   | Carp Carp38,39
+o_1 o_144,45
+e_30=e_3045,46
+fishExperiences fishExperiences48,49
+pikeinFish pikeinFish53,54
+dolphinFish dolphinFish58,59
+guppyFish guppyFish63,64
+
+./CombinedConcept.hs,158
+module CombinedConcept CombinedConcept0,1
+s_pet s_pet8,9
+s_fish s_fish11,12
+combinedGoldfish combinedGoldfish16,17
+combinedGuppy combinedGuppy18,19
+
+./Pet.hs,1167
+module Pet Pet10,11
+data PetContextPetContext15,16
+   = UnitContext UnitContext16,17
+   | C1 C117,18
+   | C2 C218,19
+   | C3 C319,20
+   | C4 C420,21
+   | C5 C521,22
+   | C6 C622,23
+instance instance25,26
+data PetInstancesPetInstances34,35
+   = Rabbit Rabbit35,36
+   | Cat Cat36,37
+   | Mouse Mouse37,38
+   | Bird Bird38,39
+   | Parrot Parrot39,40
+   | Goldfish Goldfish40,41
+   | Hamster Hamster41,42
+   | Canary Canary42,43
+   | Guppy Guppy43,44
+   | Snake Snake44,45
+   | Spider Spider45,46
+   | Dog Dog46,47
+   | Hedgehog Hedgehog47,48
+   | GuineaPig GuineaPig48,49
+o_1 o_156,57
+e_1 e_160,61
+e_2 e_261,62
+e_3 e_362,63
+e_4 e_463,64
+e_5 e_564,65
+e_6 e_665,66
+of_1 of_169,70
+ef_1 ef_170,71
+ef_2 ef_271,72
+ef_3 ef_372,73
+ef_4 ef_473,74
+ef_5 ef_574,75
+ef_6 ef_675,76
+teste teste79,80
+petExperiences petExperiences82,83
+petFExp petFExp85,86
+xpu xpu91,92
+xpfu xpfu92,93
+isEqual1 isEqual194,95
+xph xph99,100
+xpfh xpfh100,101
+isEqual2 isEqual2102,103
+xpi xpi107,108
+xpfi xpfi108,109
+isEqual3 isEqual3110,111
+xpj xpj115,116
+xpfj xpfj116,117
+isEqual4 isEqual4118,119
+
+./AddExperience.hs,1136
+module AddExperience AddExperience10,11
+data LunchContextLunchContext14,15
+   = UnitContext UnitContext15,16
+   | C1 C116,17
+   | C2 C217,18
+   | C3 C318,19
+instance instance21,22
+data LunchInstancesLunchInstances27,28
+   = Spar Spar28,29
+   | Bok Bok29,30
+   | TofuChilli TofuChilli30,31
+   | Burger Burger31,32
+   | Uber Uber32,33
+   | Wirtshaus Wirtshaus33,34
+data LunchPropertiesLunchProperties36,37
+   = Expensive Expensive37,38
+   | Moderate Moderate38,39
+   | Cheap Cheap39,40
+o_1 o_151,52
+e_1 e_157,58
+e_2 e_258,59
+e_3 e_359,60
+experience experience61,62
+op_1 op_165,66
+p_1 p_166,67
+p_2 p_267,68
+p_3 p_368,69
+sparAlone sparAlone73,74
+uberAlone uberAlone78,79
+sparProfandCollegues sparProfandCollegues83,84
+uberProfandCollegues uberProfandCollegues88,89
+sparProf=sparProf93,94
+wirtshausProf wirtshausProf99,100
+addedExperience addedExperience103,104
+wirtshausProfAdded wirtshausProfAdded108,109
+bokProfAdded bokProfAdded113,114
+added2Experience added2Experience117,118
+wirtshausProfAdded2 wirtshausProfAdded2122,123
+bokProfAdded2 bokProfAdded2127,128
+
+./Setup.hs,15
+main main1,2
+
+./dist/build/autogen/Paths_Categorization.hs,978
+module Paths_Categorization Paths_Categorization0,1
+catchIO catchIO11,12
+catchIO catchIO12,13
+version version15,16
+version version16,17
+bindir, libdir, datadir, libexecdir, sysconfdir sysconfdir17,18
+bindir, libdir, datadir, libexecdir,libexecdir17,18
+bindir, libdir, datadir,datadir17,18
+bindir, libdir,libdir17,18
+bindir,bindir17,18
+bindir bindir19,20
+libdir libdir20,21
+datadir datadir21,22
+libexecdir libexecdir22,23
+sysconfdir sysconfdir23,24
+getBinDir, getLibDir, getDataDir, getLibexecDir, getSysconfDir getSysconfDir25,26
+getBinDir, getLibDir, getDataDir, getLibexecDir,getLibexecDir25,26
+getBinDir, getLibDir, getDataDir,getDataDir25,26
+getBinDir, getLibDir,getLibDir25,26
+getBinDir,getBinDir25,26
+getBinDir getBinDir26,27
+getLibDir getLibDir27,28
+getDataDir getDataDir28,29
+getLibexecDir getLibexecDir29,30
+getSysconfDir getSysconfDir30,31
+getDataFileName getDataFileName32,33
+getDataFileName getDataFileName33,34
+
+./SCOPList.hs,181
+module SCOPList SCOPList19,20
+class (Enum c,Eq c,Enum i,Eq i) => SCOP SCOP28,29
+ mu :: (Eq c, Eq i) => c c82,83
+class (Enum c,Eq c,Enum i,Eq i) => SCOP c i where -- --28,29

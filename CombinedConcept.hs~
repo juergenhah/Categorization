@@ -1,0 +1,6 @@
+module CombinedConcept  where
+
+import Pet
+import Fish
+import SCOPList
+
